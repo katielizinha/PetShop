@@ -1,0 +1,136 @@
+      <!DOCTYPE html>
+      <html lang="pt-br">
+
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>PetShop</title>
+        <link href="compras.css" rel="stylesheet" type="text/css" />
+      </head>
+
+      <body>
+        <header class="cabecalho">
+          <div id="logo"> 
+            <img class="logo-imagem" src="imagens/gato.png" alt="Logotipo do PetShop">
+            <h1>PetShop</h1>
+          </div>
+          
+          <div class="search-box"> 
+            <input type="text" class="search-txt" placeholder="Pesquisar" required>
+            <img src="imagens/pesquisa.png" alt="Lupa barra de pesquisa">
+          </div>  
+
+          <nav class="menu">
+            <ul class="menu-itens">
+              <li><img src="imagens/user.png" class="user" alt="Ícone de usuário">Minha conta</li>
+              <li><img src="imagens/sacola.png" class="sacola" alt="Ícone de sacola"></li>
+            </ul>
+          </nav>
+         
+        </header>
+        <div class="detalhe-laranja"></div>
+        <main> 
+        <nav class="categorias">
+          <ul class="categorias-itens">
+            <li><a href="#">Cachorros</a></li>
+            <li><a href="#">Gatos</a></li>
+            <li><a href="#">Roedores</a></li>
+            <li><a href="#">Peixes</a></li>
+            <li><a href="#">Répteis</a></li>
+            <li><a href="#">Casa e Jardim</a></li>
+          </ul>
+          <ul class="categorias-sobre">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Adoção</a></li>
+          </ul>
+        </nav>
+        <div class="carousel">
+          <div class="carousel-slides">
+            <div class="carousel-slide">
+              <img src="imagens/destaque1.png" alt="Imagem 1">
+            </div>
+            <div class="carousel-slide">
+              <img src="imagens/destaque2.png" alt="Imagem 2">
+            </div>
+            <div class="carousel-slide">
+              <img src="imagens/destaque3.png" alt="Imagem 3">
+            </div>
+          </div>
+          <div class="carousel-dots">
+            <span class="dot" onclick="moveToSlide(0)"></span>
+            <span class="dot" onclick="moveToSlide(1)"></span>
+            <span class="dot" onclick="moveToSlide(2)"></span>
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+
+            <div class="produtos">
+              <h2 class="produtos-titulo">Conheça nosso PetShop:</h2>
+              <div class="produtos-divisoes"> 
+                <nav class="lista-cachorro">
+                  <div class="itens-cachorro">
+                    <div class="itens-imagem">
+                      <img class="itens-cachorro-imagem" src="imagens/cachorro-compras.png" alt="Imagem cachorro">
+                    </div>
+                    <div class="itens-texto">
+                      <h1>Cachorros</h1>
+                      <a href="#">Ver mais</a>
+                    </div>
+                  </div>
+                  <ul class="lista-produtos">
+                    <li><img class="itens" src="imagens/casinha.png" alt="Shampoo para pets"><a href="#">Casinha</a></li>
+                    <li><img class="itens" src="imagens/brinquedo.webp" alt="Brinquedo para pets"><a href="#">Brinquedo</a></li>
+                    <li><img class="itens" src="imagens/shampoo.jpg" alt="Ração para pets"><a href="#">Higiene</a></li>
+                    <li><img class="itens" src="imagens/Ração.webp" alt="Remédio para pets"><a href="#">Ração</a></li>
+                    <li><img class="itens" src="imagens/supersecão.png" alt="Casinha para pets"><a href="#">Tapete-higiênico</a></li>
+                  </ul>
+                </nav>
+                <nav class="lista-gato">
+                  <div class="itens-gato">
+                    <div class="itens-imagem">
+                      <img class="itens-gato-imagem" src="imagens/gato-compras.webp" alt="Imagem gato">
+                    </div>
+                    <div class="itens-texto">
+                      <h1>Gatos</h1>
+                      <a href="#">Ver mais</a>
+                    </div>
+                  </div>
+                  <ul class="lista-produtos">
+                    <li><img class="itens" src="imagens/cama.webp" alt="Shampoo para pets"><a href="#">Caminha</a></li>
+                    <li><img class="itens" src="imagens/brinquedo.png" alt="Brinquedo para pets"><a href="#">Brinquedo</a></li>
+                    <li><img class="itens" src="imagens/shampoo-para-gato.png" alt="Ração para pets"><a href="#">Higiene</a></li>
+                    <li><img class="itens" src="imagens/ração gatinho.png" alt="Remédio para pets"><a href="#">Ração</a></li>
+                    <li><img class="itens" src="imagens/areia.webp" alt="Casinha para pets"><a href="#">Areia Higiênica</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+            <div class="marcas">
+              <h1>Marcas Mais Bem Avaliadas</h1>
+              <nav>
+                <ul class="lista-marcas">
+                  <li><img class="itens" src="imagens/ração-golden.webp" alt="Ração Golden"><a href="#">Golden</a><img class="estrelas" src="imagens/5estrelas.webp" alt="Avaliação"></li>
+                  <li><img class="itens" src="imagens/ração-hills.png" alt="Ração Hills"><a href="#">Hills</a><img class="estrelas" src="imagens/5estrelas.webp" alt="Avaliação"></li>
+                  <li><img class="itens" src="imagens/bravecto.jpg" alt="Medicamento Bravecto"><a href="#">Bravecto</a><img class="estrelas" src="imagens/5estrelas.webp" alt="Avaliação"></li>
+                  <li><img class="itens" src="imagens/proplan.webp" alt="Ração ProPlan"><a href="#">ProPlan</a><img class="estrelas" src="imagens/5estrelas.webp" alt="Avaliação"></li>
+                  <li><img class="itens" src="imagens/supersecão.png" alt="Super Secão"><a href="#">Super Secão</a><img class="estrelas" src="imagens/5estrelas.webp" alt="Avaliação"></li>
+                  <li><img class="itens" src="imagens/Royal Canin.webp" alt="Ração Royal Canin"><a href="#">Royal Canin</a><img class="estrelas" src="imagens/5estrelas.webp" alt="Avaliação"></li>
+                </ul>
+              </nav>
+              
+            </div>
+        </main>
+            
+          
+          <footer class="finalizacao">
+            <p>Ajuda</p>
+          </footer>
+        </div>
+      </body>
+
+      </html>
+
+          
+        

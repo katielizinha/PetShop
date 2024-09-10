@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  text-decoration: none;
+}
+
+body{
+  font-family: "Poppins", system-ui;
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 100vh;
+  font-weight: 600;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #4D2383;
+}
+
+#logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo h1{
+  color: white;
+  font-family: 'Bree Serif', serif;
+  font-size: 4vmin;
+}
+
+#logo img{
+  margin-left: 2vmin;
+  height: 8vmin;
+  width: 8vmin;
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+  display: flex;
+  margin: 2vmin;
+  font-size: 2.5vmin;
+}
+
+li a{
+  color: white;
+}
+
+.user{
+  width: 6vmin;
+  height: 6vmin;
+}
+
+.detalhe-laranja{
+  background: orange;
+  height: 2vmin;
+}
+
+.principal{
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14vmin;
+}
+
+.principal h1{
+  font-family: 'Bree Serif', serif;
+  color: #4D2383;
+  font-size: 8vmin;
+}
+
+.main-login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-login{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background:#4D2383;
+  border-radius: 25px;
+}
+
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.textfield input{
+  width: 100%;
+  border: none;
+  border-radius: 35px;
+  padding: 15px;
+  background: white;
+  color: #787878;
+  font-size: 12pt;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield label{
+  font-size: 3vmin;
+  color: white;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.textfield input::placeholder{
+  color: #bfbfbf;
+}
+
+#continue{
+  padding: 16px 28px;
+  margin: 25px 0px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+  background: #FF9D0A;
+  cursor: pointer;
+}
+
+.cadastro{
+  margin-top: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.right-login{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cachorro{
+  margin-right: 5px;
+  width: 115vmin;
+}
+
+@media (max-width: 740px) {
+  .cachorro{
+  width: 0;
+}
+ 
+  .right-login{
+  width: 0;
+  height: 0;
+}
+
+ .left-login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal{
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0vmin;
+}
+
+.principal h1{
+  font-family: 'Bree Serif', serif;
+  color: #4D2383;
+  font-size: 6vmin;
+  margin-top: 17%;
+}
+  
+  .textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 2vmin;
+
+}
+
+  .card-login{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background:#4D2383;
+  border-radius: 25px;
+
+}
+
+.main-login{
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+}
+ 
